@@ -4,14 +4,12 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		String signal="green";
-
-		int i=100;
-
-		do {
+		for(int i=0;i<10;i++) {
+			if(i==5) {
+				continue;
+			}
 			System.out.println(i);
-			i++;
-		}while(i<10);
+		}
     }
 
 }
