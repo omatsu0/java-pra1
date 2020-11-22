@@ -4,11 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 
-//
-
-		String s;
-		s = "Hello" + "world";
-		System.out.println(s);
+		int i=10;
+		double d=(double)i / 4;
+		System.out.println(d);
 
 	}
 
