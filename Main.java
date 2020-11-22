@@ -4,12 +4,12 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		for(int i=0;i<10;i++) {
-			if(i==5) {
-				continue;
-			}
-			System.out.println(i);
-		}
+		int[] sales = {100,200,300};
+
+		System.out.println(sales[1]);
+		sales[1]=1000;
+		System.out.println(sales[1]);
+
     }
 
 }
