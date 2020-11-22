@@ -4,9 +4,10 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int i=10;
-		double d=(double)i / 4;
-		System.out.println(d);
+		int score =70;
+
+		String msg= score > 80 ? "Great!" : "so...so...!";
+		System.out.println(msg);
 
 	}
 
